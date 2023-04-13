@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #dfe099;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            max-width: 1000px;
+            margin: auto;
+        }
+        main.p
+        {
+            font-size: 2em;
+
+        }
+        h1{
+            font-size: 50px;
+            word-break: break-all;
+        }
+        .row{
+            margin: 8px -16px;
+        }
+        .row, .row > .column{
+            padding: 8px;
+        }
+        .column{
+            float: left;
+            width: 25%;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .content{
+            background-color: white;
+            padding: 10px;
+        }
+        @media screen and (max-width: 900px){
+            .column{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .column {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1> Vikas Gupta</h1>
+        <br>
+        <p>Hi, I'm Vikas. I'm a web developer with experience in HTML, CSS. I love building websites that are both beautiful and functional.</p>
+        <h2>About Me</h2>
+        <p>Website Developer.<br>
+        <p>This is a description of my first project. It was built using HTML, CSS.</p>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <!--<img src="DUBEY.1234.png.crdownload" alt="" style="width: 100%;">--->
+                    <h3>E-Commerce</h3>
+                    <p>Allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar locations.</p>
+                </div>    
+            </div>
+            <div class="column">
+                <div class="content">
+                   <!-- <img src="foodhub.jpeg" alt=""
+                    style="width: 100%;">-->
+                    <h3>Food Website</h3>
+                    <p>Fresh and high quality food from Indian cuisins prepared by experts homechefs near you.</p>
+                </div>
+            </div> 
+            <div class="column">
+                <div class="content">
+                  <!--  <img src="travel website.avif" alt=""
+                    style="width: 100%;">-->
+                    <h3>Travel Website</h3>
+                    <p>Plan your next trip, read reviews and get travel advice from our community on where to stay and what to do.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                <!-- <img src="programing.jpeg" alt=""
+                    style="width: 100%;">-->
+                    <h3>Coding Website</h3>
+                    <p>Learn the technical skills to get the job you want.Build the projects and earn the certifications.</p>
+                </div>
+            </div>   
+        </div>
+        <a href="https://www.linkedin.com/in/vikas-bholanath-gupta-367a0a246">Linked in profile</a>
+    </div>
+</body>
+</html>
